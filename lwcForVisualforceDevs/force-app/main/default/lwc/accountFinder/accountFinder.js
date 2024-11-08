@@ -5,7 +5,7 @@ export default class AccountFinder extends LightningElement {
   handleChange(event) {
     this.annualRevenue = event.detail.value;
   }
-  click(event){
+  reset(){
     this.annualRevenue = null;
   }
 }
