@@ -8,6 +8,7 @@ const COLUMNS = [
     { label: 'Annual Revenue', fieldName: REVENUE_FIELD.fieldApiName, type: 'currency' },
     { label: 'Industry', fieldName: INDUSTRY_FIELD.fieldApiName, type: 'text' }
 ];
+
 export default class AccountList extends LightningElement {
     columns = COLUMNS;
     @wire(getAccounts)
